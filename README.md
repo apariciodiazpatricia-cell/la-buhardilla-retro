@@ -164,6 +164,17 @@ Abre tu navegador en `http://localhost:5173` para sumergirte en **La Buhardilla 
 
 ---
 
+## ☁️ Despliegue en Producción (Vercel)
+
+El proyecto está 100% configurado para desplegarse en **Vercel**:
+
+1. **SPA Routing:** Archivo `vercel.json` incluido para evitar errores `404 Not Found` en recargas de ruta.
+2. **Serverless API Integrada:** Dispone de funciones Serverless en `/api/products`, `/api/vendedores` y `/api/users` que responden automáticamente en producción sin necesidad de configurar un servidor externo.
+3. **Backend Externo Opcional:** Si deseas conectar una base de datos externa persistente (en Render, Railway o MockAPI), solo añade la variable de entorno en tu panel de Vercel (*Project Settings > Environment Variables*):
+   - `VITE_API_URL` = `https://tu-api-externa.com`
+
+---
+
 ## 🧪 Suite de Testing y Calidad
 
 El proyecto cuenta con pruebas automatizadas que verifican el renderizado, navegación, categorías y componentes:
