@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Patricia Aparicio",
+        "role": "Admin / Fundadora",
+        "email": "patricia@labuhardillaretro.com"
+    },
+    {
+        "id": 2,
+        "name": "Alex Synth",
+        "role": "Curador Vintage",
+        "email": "alex@labuhardillaretro.com"
+    }
+]
