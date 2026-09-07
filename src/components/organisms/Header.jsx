@@ -1,7 +1,17 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { getWeatherData } from '../../services/weatherService';
 
 export const Header = () => {
-    const city = 'Sevilla'; // <-- Esta es la línea que faltaba
+    const [weather, setWeather] = useState({ temp: 25, condition: 'Despejado ☀️', location: 'Sevilla' });
+
+    useEffect(() => {
+        getWeatherData().then((data) => {
+            if (data && data.temp !== '--') {
+                setWeather(data);
+            }
+        });
+    }, []);
 
     return (
         <header style={{
@@ -35,13 +45,14 @@ export const Header = () => {
             <div style={{
                 background: '#050505',
                 border: '1px solid #ffe600',
-                padding: '5px 12px',
+                padding: '6px 14px',
                 borderRadius: '15px',
                 color: '#ffe600',
                 fontSize: '13px',
-                fontWeight: 'bold'
+                fontWeight: 'bold',
+                boxShadow: '0 0 8px rgba(255, 230, 0, 0.3)'
             }}>
-                📍 {city} | 🌡️ 25°C
+                📍 {weather.location} | 🌡️ {weather.temp}°C {weather.condition ? `(${weather.condition})` : ''}
             </div>
         </header>
     );

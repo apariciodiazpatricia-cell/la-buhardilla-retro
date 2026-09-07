@@ -101,6 +101,38 @@ la-buhardilla-retro/
 
 ---
 
+## 🌐 APIs Utilizadas y Endpoints
+
+La aplicación consume dos servicios de datos:
+
+### 1. 🗄️ API REST Local (JSON Server en Puerto 3001)
+Servidor mockeado que gestiona la persistencia de datos en `src/data/products.json`:
+
+| Recurso | Método | Endpoint | Descripción |
+| :--- | :---: | :--- | :--- |
+| **Productos** | `GET` | `http://localhost:3001/products` | Obtener todas las reliquias del catálogo |
+| **Productos** | `POST` | `http://localhost:3001/products` | Registrar una nueva reliquia |
+| **Productos** | `PUT` | `http://localhost:3001/products/:id` | Modificar un producto existente |
+| **Productos** | `DELETE` | `http://localhost:3001/products/:id` | Eliminar un producto del catálogo |
+| **Vendedores** | `GET` | `http://localhost:3001/vendedores` | Listar los miembros y expertos del equipo |
+| **Vendedores** | `POST` | `http://localhost:3001/vendedores` | Dar de alta a un nuevo vendedor |
+| **Vendedores** | `PUT` | `http://localhost:3001/vendedores/:id` | Actualizar los datos de un vendedor |
+| **Vendedores** | `DELETE` | `http://localhost:3001/vendedores/:id` | Dar de baja a un miembro |
+| **Usuarios** | `GET` | `http://localhost:3001/users` | Listar usuarios registrados de la comunidad |
+| **Usuarios** | `POST` | `http://localhost:3001/users` | Crear un nuevo usuario |
+| **Usuarios** | `PUT` | `http://localhost:3001/users/:id` | Actualizar rol o perfil de usuario |
+| **Usuarios** | `DELETE` | `http://localhost:3001/users/:id` | Eliminar cuenta de usuario |
+
+### 2. 🌤️ API Pública Externa de Clima (Open-Meteo)
+Consulta meteorológica en tiempo real sin autenticación para el widget de cabecera:
+- **Proveedor:** [Open-Meteo Weather Forecast API](https://open-meteo.com/)
+- **Endpoint:** `https://api.open-meteo.com/v1/forecast?latitude=37.3881&longitude=-5.9823&current=temperature_2m,weather_code`
+- **Ubicación:** Sevilla, España (`37.3881° N, -5.9823° W`)
+- **Implementación:** Archivo de servicio en [`src/services/weatherService.js`](file:///c:/Proyectos/la-buhardilla-retro/src/services/weatherService.js)
+
+
+---
+
 ## 🚀 Instalación y Puesta en Marcha
 
 Sigue estos sencillos pasos para levantar el proyecto localmente:
