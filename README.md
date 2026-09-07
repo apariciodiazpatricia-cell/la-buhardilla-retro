@@ -194,7 +194,7 @@ Proyecto diseñado y desarrollado con pasión retro por **Patricia Aparicio**.
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 &nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/patricia-aparicio-diaz/" target="_blank">
+<a href="https://www.linkedin.com/in/patriciaapariciodiaz/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
