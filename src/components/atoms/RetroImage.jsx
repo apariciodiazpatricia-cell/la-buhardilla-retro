@@ -1,6 +1,6 @@
 export const RetroImage = ({ title, category }) => {
     return (
-        <div style={{
+        <div title={title} style={{
             width: '100vw',
             height: '160px',
             background: 'linear-gradient(135deg, #111 0%, #1a0033 100%)',

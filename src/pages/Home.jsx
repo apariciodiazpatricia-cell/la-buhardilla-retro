@@ -17,7 +17,7 @@ export const Home = () => {
             const productsData = Array.isArray(response.data) ? response.data : (response.data.products || []);
             const sorted = [...productsData].sort((a, b) => b.price - a.price);
             setTopProducts(sorted.slice(0, 6));
-        } catch (err) {
+        } catch {
             setError("No se pudo conectar con la API.");
         } finally {
             setLoading(false);
@@ -59,7 +59,7 @@ export const Home = () => {
             setShowForm(false);
             setEditingId(null);
             fetchTopProducts();
-        } catch (err) {
+        } catch {
             alert("Error al guardar en el servidor.");
         }
     };
@@ -77,7 +77,7 @@ export const Home = () => {
                 await api.delete(`/products/${id}`);
                 fetchTopProducts();
                 setCurrentIndex(0);
-            } catch (err) {
+            } catch {
                 alert("Error al borrar el producto.");
             }
         }
