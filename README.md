@@ -1,7 +1,9 @@
-# 🕹️⚡ LA BUHARDILLA RETRO ⚡🕹️
+<div align="center">
+
+# 🕹️ ⚡ LA BUHARDILLA RETRO ⚡ 🕹️
 ### *El portal definitivo de reliquias, tecnología analógica y estética synthwave.*
 
-<div align="center">
+<br>
 
 ![React](https://img.shields.io/badge/React_19-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Vite](https://img.shields.io/badge/Vite_8-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
@@ -15,8 +17,6 @@
 </p>
 
 </div>
-
----
 
 ## 🌆 Tabla de Contenidos
 
@@ -168,11 +168,10 @@ Proyecto diseñado y desarrollado con pasión retro por **Patricia Aparicio**.
 
 <br/><br/>
 
-```text
-   _________________________________________________
-  /                                                 \
- |   🕹️ GRACIAS POR VISITAR LA BUHARDILLA RETRO 🕹️   |
-  \_________________________________________________/
-```
 
-</div>
+<p align="center">
+  ______________________________________<br>
+  / &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ <br>
+  | &nbsp;&nbsp; 🕹️ GRACIAS POR VISITAR LA BUHARDILLA RETRO 🕹️ &nbsp;&nbsp; |<br>
+  \______________________________________/
+</p>
