@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Máquina de Arcade Clásica Custom",
+      "category": "Tecnología",
+      "price": 1250,
+      "description": "Gabinete recreativo con más de 5000 juegos clásicos y marquesina neón.",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "2",
+      "title": "Casco de Astronauta Retro 80s",
+      "category": "Decoración",
+      "price": 890.5,
+      "description": "Réplica exacta decorativa con visor espejado y luces intermitentes.",
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "3",
+      "title": "Tocadiscos Vintage 1970 Neón Edition",
+      "category": "Audio",
+      "price": 450,
+      "description": "Tocadiscos restaurado con iluminación LED azul y acabados cromados.",
+      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "4",
+      "title": "Cámara Polaroid OneStep Vintage",
+      "category": "Fotografía",
+      "price": 220,
+      "description": "Cámara instantánea original de los años 70 en perfecto estado de funcionamiento.",
+      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "5",
+      "title": "Lámpara de Lava Gigante Astrolux",
+      "category": "Iluminación",
+      "price": 180,
+      "description": "Clásica lámpara de lava de los 70 con líquido azul neón y cera metálica.",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "rTieMwOiQPw",
+      "title": "Sintetizador Analógico Polifónico 1982",
+      "category": "Música",
+      "price": 680,
+      "description": "Sintetizador clásico de 6 voces con osciladores analógicos puros y paneles de madera.",
+      "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "vendedores": [
+    {
+      "id": "1",
+      "name": "Evelyn Sterling",
+      "role": "Especialista en Arcades y Hardware",
+      "bio": "Apasionada de los circuitos impresos y las recreativas clásicas de los 80.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Marc Vintage",
+      "role": "Curador de Audio y Vinilos",
+      "bio": "Coleccionista incansable de sonido analógico, platos de alta gama y amplificadores de válvulas.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Valeria Frost",
+      "role": "Especialista en Decoración Espacial",
+      "bio": "Cazadora de reliquias de la carrera espacial y diseño industrial retrofuturista.",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "4",
+      "name": "Julian Vega",
+      "role": "Técnico de Óptica y Cámaras",
+      "bio": "Restaurador experto en cámaras instantáneas y fotografía química de los años 70.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "5",
+      "name": "Sofía Neon",
+      "role": "Diseñadora de Iluminación y Neón",
+      "bio": "Amante de la luz cálida de las lámparas de lava y tubos de neón decorativos.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "6",
+      "name": "Liam Vance",
+      "role": "Especialista en Computación Clásica",
+      "bio": "Arqueólogo digital enfocado en ordenadores de 8 bits y soportes magnéticos antiguos.",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "6-Sxpxry048",
+      "name": "Elena Synthwave",
+      "role": "Restauradora de Sintetizadores y Teclados",
+      "bio": "Especialista en síntesis analógica, cajas de ritmos vintage y modulación sonora de los 80.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "6o-kRhJzm98",
+      "name": "Héctor Casio",
+      "role": "Curador de Consolas Portátiles y Relojes",
+      "bio": "Experto en microelectrónica retro, consolas portátiles clásicas y relojes digitales setenteros.",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Patricia Aparicio",
+      "email": "patricia@labuhardillaretro.com",
+      "role": "Administradora Principal",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Alejandro Sanz",
+      "email": "alejandro@labuhardillaretro.com",
+      "role": "Coleccionista Senior",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Carmen Ortiz",
+      "email": "carmen@labuhardillaretro.com",
+      "role": "Socia y Curadora",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
